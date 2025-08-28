@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 
-
+//hello hihihi
 @Autonomous
 public class encoderAuto extends LinearOpMode{
     public void runOpMode() throws InterruptedException {
