@@ -1,11 +1,12 @@
-package org.firstinspires.ftc.robotcontroller;
+package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 
 
-@TeleOp
+@Autonomous
 public class encoderAuto extends LinearOpMode{
     public void runOpMode() throws InterruptedException {
         DcMotorEx frontLeftMotor = hardwareMap.get(DcMotorEx.class, "fl");
