@@ -27,6 +27,11 @@ public class TestingAction extends LinearOpMode{
     ElapsedTime time = new ElapsedTime();
     public MecanumDrive drive;
 
+    @Override
+    public void runOpMode() throws InterruptedException {
+
+    }
+
 
     @Override
     public void runOpMode() throws InterruptedException {
