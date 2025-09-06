@@ -1,14 +1,12 @@
-package org.firstinspires.ftc.teamcode;
+/* package org.firstinspires.ftc.teamcode;
 import androidx.annotation.NonNull;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.TelemetryPacket;
 import com.acmerobotics.roadrunner.Action;
-<<<<<<< HEAD
 import com.acmerobotics.roadrunner.SleepAction;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-=======
 import com.acmerobotics.roadrunner.InstantAction;
 import com.acmerobotics.roadrunner.Pose2d;
 import com.acmerobotics.roadrunner.SequentialAction;
@@ -16,7 +14,6 @@ import com.acmerobotics.roadrunner.SleepAction;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
->>>>>>> fceee05c6a0960ca61b996a7e1624fcdd408249c
 import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
@@ -29,16 +26,14 @@ import java.util.*;
 public class TestingAction extends LinearOpMode{
     private FtcDashboard dash = FtcDashboard.getInstance();
     private List<Action> runningActions = new ArrayList<>();
-<<<<<<< HEAD
-=======
 
->>>>>>> fceee05c6a0960ca61b996a7e1624fcdd408249c
+
     ElapsedTime time = new ElapsedTime();
     public MecanumDrive drive;
 
     @Override
     public void runOpMode() throws InterruptedException {
-<<<<<<< HEAD
+
         TelemetryPacket packet = new TelemetryPacket();
 
         if (gamepad1.a) {
@@ -57,7 +52,7 @@ public class TestingAction extends LinearOpMode{
         runningActions = newActions;
 
         dash.sendTelemetryPacket(packet);
-=======
+
 
     }
 
@@ -93,7 +88,7 @@ public class TestingAction extends LinearOpMode{
         }
 
 
->>>>>>> fceee05c6a0960ca61b996a7e1624fcdd408249c
+
     }
 
 
@@ -123,11 +118,9 @@ public class TestingAction extends LinearOpMode{
 
     }
 
-<<<<<<< HEAD
     public Action MoveForward() { return new MoveForward(); }
-=======
+
     public Action MoveForward() {return new MoveForward(); }
->>>>>>> fceee05c6a0960ca61b996a7e1624fcdd408249c
 
 }
-
+*/
