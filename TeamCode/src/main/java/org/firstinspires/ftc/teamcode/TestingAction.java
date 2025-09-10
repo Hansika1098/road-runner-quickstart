@@ -1,4 +1,4 @@
-/* package org.firstinspires.ftc.teamcode;
+/*package org.firstinspires.ftc.teamcode;
 import androidx.annotation.NonNull;
 
 import com.acmerobotics.dashboard.FtcDashboard;
@@ -119,8 +119,6 @@ public class TestingAction extends LinearOpMode{
     }
 
     public Action MoveForward() { return new MoveForward(); }
-
-    public Action MoveForward() {return new MoveForward(); }
 
 }
 */
